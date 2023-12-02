@@ -6,3 +6,4 @@ JavaScriptmas is an "advent calendar" of festive daily code challenges, designed
 
 **Challenges**   
 Day 1: [Christmas Countdown](https://thebimsider.github.io/JavaScriptmas23/Day1/)
+Day 2: [Style a Colorful Button](https://thebimsider.github.io/JavaScriptmas23/Day2/)
