@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url(/Day3/bg-xmas.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--wine-red);
+  color: var(--snow);
+  padding: 1em 2em;
+  border-radius: 5px;
+}
+
+h1 {
+  color: red;
+  text-shadow: 1px 1px black;
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 8px;
+  border: 2px solid;
+}
+
+label {
+  color: black;
+  font-weight: bolder;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  padding: 3px;
+  border: 1px solid;
+}
+
+button {
+  font-size: medium;
+  background-color: aquamarine;
+  border-radius: 4px;
+  padding: 3px;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid;
+}
+
+h3 {
+  color: black;
+  background-color: lightskyblue;
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid;
+}

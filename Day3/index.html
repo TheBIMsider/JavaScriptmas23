@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <title>Divide Candy</title>
+</head>
+    <body>
+      <h1>Candy Calculator 🍬</h1>
+        <div class="container">
+          <label for="childrenInput">Number of Children:</label>
+          <input type="number" style="text-align:center;" id="childrenInput" min="1" required ><br>
+
+          <label for="candiesInput">Total Number of Candies:</label>
+          <input type="number" style="text-align:center;" id="candiesInput" min="1" required><br>
+
+          <button onclick="calcTotalCandies()">Calculate</button>
+          
+          <h3 id="result"></h3>
+        </div>
+      <script src="index.js"></script>
+    </body>
+</html>
