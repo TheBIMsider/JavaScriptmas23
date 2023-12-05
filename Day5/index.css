@@ -1,0 +1,70 @@
+/* CSS Card Flip
+  Task:
+  - Card has two sides, and flips from front to back on hover
+  - Match styles as closely as you can
+  - CSS only
+  - Don't worry about responsiveness
+  
+  Hints:
+  - A card flip is essentially an element rotating 180 degrees in 3D space. 
+  Use .card class to create the flip effect, then show and hide the front and 
+  back content as the card flips
+  - Use the transition property for a smooth flip
+  - The CSS properties transform-style: preserve-3d and backface-visibility will 
+  help you along the way
+*/
+
+body, html { 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+:root {
+  --jeopardy-blue: #060CE9;
+  --font-color-main: #fff;
+}
+
+.card {
+    width: 350px;
+    height: 250px;
+    perspective: 1000px; /* Adjust the perspective to control the 3D effect */
+    border-radius: 12px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: #060CE9; /* Front card background color */
+    color: #fff; /* Front card text color */
+}
+
+.card-back {
+    background-color: #060CE9; /* Back card background color */
+    color: #fff; /* Back card text color */
+    text-align: center;
+    transform: rotateY(180deg);
+}
