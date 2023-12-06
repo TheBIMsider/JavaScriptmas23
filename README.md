@@ -10,3 +10,4 @@ Day 2: [Style a Colorful Button](https://thebimsider.github.io/JavaScriptmas23/D
 Day 3: [Divide Candy](https://thebimsider.github.io/JavaScriptmas23/Day3/)   
 Day 4: [AI Christmas Joke Generator](https://scrimba.com/scrim/co6c94c4eb469f9b9e2e12c35)   
 Day 5: [Jeopardy Card Flip](https://thebimsider.github.io/JavaScriptmas23/Day5/)     
+Day 6: [Secret Santa](https://thebimsider.github.io/JavaScriptmas23/Day/6)     
