@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Secret Santa</title>
+  </head>
+  <body>
+    <h1>Secret 🤐 Santa 🎅 Generator 🪄</h1>
+    <div class="container">
+      <p class="santa-text" style="font-weight: bolder; font-size: x-large;">You're Secret Santa to:</p>
+      <p id="santa-display" class="santa-display"></p>
+    </div>
+    <br />
+    <label for="selectPerson" style="font-size: larger">Who are you?</label>
+    <br />
+    <select id="selectPerson" onchange="displayPairedPerson()">
+      <option value="Alice">Alice</option>
+      <option value="Bob">Bob</option>
+      <option value="Carly">Carly</option>
+      <option value="Dan">Dan</option>
+      <option value="Ed">Ed</option>
+      <option value="Ferdinand">Ferdinand</option>
+      <option value="Ginny">Ginny</option>
+    </select>
+    <div id="pairedPersonDisplay"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

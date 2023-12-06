@@ -1,0 +1,41 @@
+:root {
+  --firebrick: #bb2528;
+  --cinnabar: #ea4630;
+  --dark-green: #165b33;
+  --light-green: #146b3a;
+  --gold: #f8b229;
+  --snow: #f0f4f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--cinnabar);
+  background-color: var(--snow);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--light-green);
+  color: var(--gold);
+  padding: 1em 2em;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.santa-display {
+  font-size: 100px;
+  margin: 0;
+}
