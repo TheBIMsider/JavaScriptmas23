@@ -12,3 +12,4 @@ Day 4: [AI Christmas Joke Generator](https://scrimba.com/scrim/co6c94c4eb469f9b9
 Day 5: [Jeopardy Card Flip](https://thebimsider.github.io/JavaScriptmas23/Day5/)     
 Day 6: [Secret Santa](https://thebimsider.github.io/JavaScriptmas23/Day6/)     
 Day 7: [Xmas Present Wishlist](https://thebimsider.github.io/JavaScriptmas23/Day7/)    
+Day 8: [Anomated Progress Bar] https://thebimsider.github.io/JavaScriptmas23/Day8/)    
