@@ -1,0 +1,77 @@
+/*  Animated Progress Bar
+  - Build a CSS animation of a progress bar filling to 100%. The animation should run continuously, with a small 
+    pause when the bar is filled 100%
+  - The progress begins red, turns blue at 50% full, and green when complete
+  - CSS only!
+  Hints:
+  - It may help to think of the progress bar as two elements, one on top of another: an outer progress bar and an inner progress bar.
+  How can you use the width of the inner progress bar to create the effect of the outer progress bar filling?
+  - Use the animation property and keyframes to complete this challenges. There's no way to pause an infinite animation between 
+  iterations, so to create the effect of a "pause" once the progress bar has filled to 100%, you may need an extra key frame
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --progressbar-bg: lightgrey;
+  --start: red;
+  --middle: blue;
+  --finish: green;
+} 
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: snow;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color:gold;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: var(--progressbar-bg);
+}
+
+.progress-status {
+  animation-name: progressBarAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes progressBarAnimation {
+  0% {
+    background-color: var(--start); width: 0%
+  }
+  40% {
+    background-color: var(--middle); width: 50%
+  }
+  80% {
+    background-color: var(--finish); width: 100%
+  }
+  100% {
+    background-color: var(--finish); width: 100%
+  }
+}
