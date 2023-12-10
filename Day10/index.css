@@ -1,0 +1,57 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Xmas_Music_bg.jpg);
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    color: var(--snow);
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+#player {
+  background-color: var(--snow);
+}
+
+button {
+    font-family: 'Mountains of Christmas', serif;
+    background-color: var(--bright-red);
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 0;
+    color: var(--snow);
+}
+
+button:hover {
+    background-color: var(--light-green);
+    cursor: pointer;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}

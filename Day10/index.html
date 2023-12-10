@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎄 Rockin' Around</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🎄 Christmas Jukebox 🎄</h1>
+      <iframe
+        id="player"
+        type="text/html"
+        width="320"
+        height="180"
+        src="https://www.youtube.com/embed/jDdSQlCbJ90?autoplay=1"
+        frameborder="0"
+      ></iframe>
+
+      <div class="songs">
+        <button onclick="playSong('jDdSQlCbJ90')">
+          I Wish It Was Christmas Today
+        </button>
+        <button onclick="playSong('l2oPio60mK4')">
+          Bob &amp; Doug's 12 Days of Christmas
+        </button>
+        <button onclick="playSong('EIfZXSXRsYI')">
+          Thank God its Christmas
+        </button>
+        <button onclick="playSong('sCabI3MdV9g')">Carol of the Bells</button>
+        <button onclick="playSong('HQaXSIpBZNc')">
+          Grandma Got Run Over By A Reindeer
+        </button>
+        <button onclick="playSong('7doBMyEH_Ug')">
+          Mistress for Christmas
+        </button>
+        <button onclick="playSong('PoAjmmD89Vw')">White Christmas</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
