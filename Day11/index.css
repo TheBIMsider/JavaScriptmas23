@@ -1,0 +1,55 @@
+:root { 
+  --white: #fff;
+  --red: #FF0002;
+  --bg: snow;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg); 
+}
+
+.flag-swiss {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 320px;
+  background-color: var(--red); 
+  position: relative;
+  animation: flap 2s infinite alternate;
+}
+
+.cross1,
+.cross2 {
+  position:absolute;
+  background-color: var(--white); 
+}
+
+.cross2 {
+  width: 200px;
+  height: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cross1 {
+  width: 60px;
+  height: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes flap {
+  0% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
