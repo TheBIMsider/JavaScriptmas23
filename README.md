@@ -16,3 +16,4 @@ Day 8: [Animated Progress Bar](https://thebimsider.github.io/JavaScriptmas23/Day
 Day 9: [AI Christmas E-card Generator](https://scrimba.com/scrim/coba54c60ae3528a3778eb0e7)   
 Day 10: [Rocking' Around](https://thebimsider.github.io/JavaScriptmas23/Day10/)     
 Day 11: [Flag Challenge](https://thebimsider.github.io/JavaScriptmas23/Day11/)     
+Day 12: [Santa's Gift Sorter](https://thebimsider.github.io/JavaScriptmas23/Day12/)     
