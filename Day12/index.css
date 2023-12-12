@@ -1,0 +1,61 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-image: url(bg_xmas_snowman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-positioN: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    font-weight: bold;
+    background: var(--bright-red);
+    color: var(--snow);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+h1 {
+    background: var(--snow);
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: var(--dark-green);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+button {
+    background: var(--snow);
+    border-color: var(--dark-green);
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
