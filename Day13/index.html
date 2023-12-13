@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head><link rel="stylesheet" href="index.css">
+  <title>Christmas Dinner Picker</title>
+</head>
+    <body>
+        <h1>Christmas Dinner Picker</h1>
+        <img id="dinner-pic" src="Default.jpg" alt="Default Image" width="270" height="170">
+        <p class="result" id="result">Your ideal Christmas dinner is <span id="food">...</span></p>
+        <form>
+            <label for="name">How many guests are coming?</label>
+            <input id="num-input" type="number">
+            <div class="veggie">
+                <input type="checkbox" id="vegetarian-input" name="vegetarian" checked>
+                <label for="name">Vegetarian?</label>            
+            </div>
+            <button id="btn" type="button"> Picked Dinner</button>
+            <button id="altBtn" type="button">Picked Alternate</button>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
