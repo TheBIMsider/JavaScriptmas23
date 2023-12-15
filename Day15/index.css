@@ -1,0 +1,69 @@
+/* JavaAcriptmas Day 15
+    Task: Build an Archery Target
+    - Match the example
+    - Center on the page
+    - No need to make responsive
+    Hint:
+    - These are four circles layered on top of one another, and each circle is centered within a larger circle */
+    
+:root {
+    --black: #282828; 
+    --blue: #2892f9; 
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+    --wine-red: #C7375F;
+    --bright-red: #D42D2F;
+    --dark-green: #344D2F;
+    --light-green: #77A047;
+    --gold: #FAC57D;
+    --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: var(--bright-red);
+    background-color: var(--snow);
+}
+
+.rings {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.ring-1 { width: 100%; height: 100%; background-color: var(--black); }
+.ring-2 { width: 80%; height: 80%; background-color: var(--blue); }
+.ring-3 { width: 60%; height: 60%; background-color: var(--red); }
+
+.bullseye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 40%;
+    background-color: var(--yellow);
+    border-radius: 50%;
+
+}
