@@ -20,3 +20,4 @@ Day 12: [Santa's Gift Sorter](https://thebimsider.github.io/JavaScriptmas23/Day1
 Day 13: [Christmas Dinner Picker](https://thebimsider.github.io/JavaScriptmas23/Day13/)   
 Day 14: [Lonely Elf](https://thebimsider.github.io/JavaScriptmas23/Day14/)   
 Day 15: [Archery Target](https://thebimsider.github.io/JavaScriptmas23/Day15/)   
+Day 16: [Naughty List, Nice List](https://thebimsider.github.io/JavaScriptmas23/Day16/)   
