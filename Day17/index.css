@@ -1,0 +1,68 @@
+/* JavaScritmas Day 17
+    Word Carousel
+    - Match styles
+    - Personalize - display 4 things you love
+    - Words should rotate in an infinite loop
+    - No JavaScri pt! 
+    
+    Hints:
+    You can define the steps of an animation in
+    keyframes using percentages, with 0% being
+    the beginning of the animation and 100%
+    being the end of the animation!
+    
+    Think about how you can use a pseudo
+    element's content property to swap words */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    position: relative;
+}
+
+h1:after{
+    content: "Coding 👨‍💻";
+    background: var(--bg-word);
+    color: white;
+    font-size: 2rem;
+    animation: rotateWords 21s linear infinite;
+    transition: all .5s ease;
+    padding: 2px 10px;
+    border-radius: 10px;    
+    }
+
+@keyframes rotateWords {
+    17% {
+        content: "Dogs 🐶";
+    }
+    33% {
+        content: "Hockey 🏒";
+    }
+    50% {
+        content: "Metallica 🤘";
+    }
+    66% {
+        content: "Cats 🐈‍";
+    }
+    83% {
+        content: "Tractors 🚜‍";
+    }
+    100% {
+        content: "Coding 👨‍💻" ;
+    }
+}
