@@ -21,4 +21,4 @@ Day 13: [Christmas Dinner Picker](https://thebimsider.github.io/JavaScriptmas23/
 Day 14: [Lonely Elf](https://thebimsider.github.io/JavaScriptmas23/Day14/)   
 Day 15: [Archery Target](https://thebimsider.github.io/JavaScriptmas23/Day15/)   
 Day 16: [Naughty List, Nice List](https://thebimsider.github.io/JavaScriptmas23/Day16/)   
-Day 17: [Word Word Carousel](https://thebimsider.github.io/JavaScriptmas23/Day17/)   
+Day 17: [Word Carousel](https://thebimsider.github.io/JavaScriptmas23/Day17/)   
