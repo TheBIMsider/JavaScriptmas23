@@ -3,7 +3,7 @@
  * 1. There are loads of problems with the 
  *    code below. Find them and fix them!
  **/
-import JSConfetti from 'js-confetti'
+import JSConfetti from '/js-confetti'
 const word = 'santa' 
 const wordArr = word.split('')
 const wordDisplay = document.getElementById('word-display')
