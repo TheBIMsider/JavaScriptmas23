@@ -24,4 +24,5 @@ Day 16: [Naughty List, Nice List](https://thebimsider.github.io/JavaScriptmas23/
 Day 17: [Word Carousel](https://thebimsider.github.io/JavaScriptmas23/Day17/)   
 Day 18: [AI Alt Text Generator](https://scrimba.com/scrim/coef649aabec41f8488767665)   
 Day 19: [Debug Jingle Words](https://thebimsider.github.io/JavaScriptmas23/Day19/)    
+Day 20: [Save Santa!](https://thebimsider.github.io/JavaScriptmas23/Day20/)    
 
