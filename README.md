@@ -26,4 +26,5 @@ Day 18: [AI Alt Text Generator](https://scrimba.com/scrim/coef649aabec41f8488767
 Day 19: [Debug Jingle Words](https://thebimsider.github.io/JavaScriptmas23/Day19/)    
 Day 20: [Save Santa!](https://thebimsider.github.io/JavaScriptmas23/Day20/)    
 Day 21: [Expanding Search Bar](https://thebimsider.github.io/JavaScriptmas23/Day21/)    
+Day 22: [Gift App](https://thebimsider.github.io/JavaScriptmas23/Day22/)    
 
