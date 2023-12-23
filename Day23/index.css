@@ -1,0 +1,70 @@
+/* JavaScriptmas 2023 Day 23
+    Toggle Button
+    - On click, toggle switch moves from one side to another
+    - Cursor becomes a pointer
+    - Match styles
+    - No JavaScript! 
+      Hints:
+    - If you hide the checkbox, you'll still be able to style and toggle back and forth between
+      input: checked and input:unchecked pseudo classes by clicking on the checkbox label
+    - Use a sibling selector to style the .toggle-switch class when the input is :checked or    :unchecked */
+
+:root {
+    --toggle-switch-bg: #232428;
+    --toggle-border: #232428;
+    --toggle-bg: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6c8dd;
+}
+
+.toggle-wrap {
+    display: inline-block;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-switch {
+    width: 70px;
+    height: 30px;
+    background-color: var(--toggle-bg);
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid #232428;
+    cursor: pointer; /* Added to change cursor to pointer */
+}
+
+.toggle-input:checked + .toggle-switch::before {
+    transform: translateX(40px);
+}
+
+.toggle-switch::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: var(--toggle-border);
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: transform 0.3s;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
