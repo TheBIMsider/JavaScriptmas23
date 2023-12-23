@@ -28,4 +28,4 @@ Day 20: [Save Santa!](https://thebimsider.github.io/JavaScriptmas23/Day20/)
 Day 21: [Expanding Search Bar](https://thebimsider.github.io/JavaScriptmas23/Day21/)    
 Day 22: [Gift App](https://thebimsider.github.io/JavaScriptmas23/Day22/)    
 Day 23: [Toggle Switch](https://thebimsider.github.io/JavaScriptmas23/Day23/)    
-
+Day 24: [Christmas Tree Lights](https://thebimsider.github.io/JavaScriptmas23/Day24/) 
